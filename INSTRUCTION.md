@@ -1,4 +1,4 @@
-## Running from DOCKERHUB
+## Running from GitHub
 
 1. To clone the app navigate to your projects folder and run:
 
@@ -22,4 +22,8 @@ docker run -p 8080:8080 --name todoapp todoapp:1.0.0
  Execute the following command to pull and run the container:
 ```
 docker run workpolly/todoapp:1.0.0
+```
+
+```
+https://hub.docker.com/repository/docker/workpolly/todoapp/tags/1.0.0/sha256-77b7d9b72506201f51e0de1adc0df5ca0964008fe0e11f6b83a6712fb4a279d3
 ```

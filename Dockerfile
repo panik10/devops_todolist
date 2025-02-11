@@ -18,7 +18,7 @@ FROM python:${PYTHON_VERSION} AS run
 WORKDIR /app
 
 # Copying from build image
-COPY --from=build /app .
+COPY --from=build . .
 
 # Upgrade pip
 RUN pip install --upgrade pip 

@@ -1,5 +1,4 @@
-ARG PYTHON_VERSION=3.13
-
+ARG PYTHON_VERSION=3.9
 
 # First stage - Building a base
 FROM python:${PYTHON_VERSION} AS build
